@@ -1,0 +1,606 @@
+.homepage-container{
+    font-family: 'Inter';
+}
+.outer-container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.roadmap{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin: 50px;
+}
+
+.info-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 100%;
+}
+
+.info-img{
+    max-width: 30%;
+}
+
+.profile-img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.info-heading{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Inter';
+    /* margin-bottom: 40px; */
+}
+
+.info-subtitle{
+    color: #7D7C7C;
+    font-size: 15px;
+    max-width: 1000px;
+}
+
+.resume{
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.project-1{
+    max-width: 300px;
+}
+
+.project-2{
+    max-width: 300px;
+}
+
+.project-heading,.internship-heading{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.gray-text{
+    color: #7D7C7C;
+}
+.project-desc{
+    color: #474646;
+}
+
+.internship-duration{
+    color: #747474;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.internship-jd{
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.internship-img{
+    height: 50px;
+    width: 50px;
+}
+
+.internship-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.internship-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.internship-3{
+    display: flex;
+    flex-direction: row;
+}
+
+.internship-data{
+    margin-left: 10px;
+    max-width: 300px;
+}
+
+.marathon-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.marathon-2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 2855px;
+    left: 370px;
+}
+
+.marathon-img{
+    height: 70px;
+    width: 70px;
+}
+
+.marathon-desc{
+    font-size: 20;
+    color: #636262;
+}
+
+.internship-4{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-img{
+    display: flex;
+    justify-content: center;
+}
+.homepage-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+picture{
+    max-width: 100%;
+}
+@media only screen and (min-width: 360px) {
+    .info-heading{
+        font-size: 17px;
+    }
+    .info-subtitle{
+        font-size: 12px;
+    }
+    .profile-img{
+        max-width: 70px;
+        max-height: 70px;
+        margin-left: 10px;
+    }
+    .roadmap{
+        height: 100%;
+        max-width: 300px;
+        /* object-fit: contain; */
+    }
+    .project-1{
+        position: absolute;
+        top: 260px;
+        left: 10%;
+        max-width: 190px;
+    }
+    .project-2{
+        position: absolute;
+        top: 530px;
+        right: 1%;
+        max-width: 140px;
+    }
+    .internship-1{
+        position: absolute;
+        top: 750px;
+        left: 3%;
+        max-width: 200px;
+    }
+    .internship-2{
+        position: absolute;
+        top: 1200px;
+        right: 1%;
+        max-width: 220px;
+    }
+    .internship-3{
+        position: absolute;
+        top: 1600px;
+        left: 3%;
+        max-width: 170px;
+    }
+    .internship-4{
+        position: absolute;
+        top: 2740px;
+        right: 4%;
+        max-width: 220px;
+    }
+    .marathon-1{
+        position: absolute;
+        top: 1985px;
+        right: 3%;
+        max-width: 180px;
+    }
+    .marathon-2{
+        position: absolute;
+        top: 2375px;
+        left: 5%;
+        max-width: 200px;
+    }
+    .project-heading,.internship-heading{
+        font-size: 12px;
+    }
+    .project-desc,.internship-data,.internship-jd,.internship-duration{
+        font-size: 10px;
+    }
+    .resume{
+        font-size: 10px;
+    }
+    .internship-img{
+        height: 20px;
+        width: 20px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .info-heading{
+        font-size: 30px;
+    }
+    .roadmap{
+        height: 100%;
+        max-width: 400px;
+        /* object-fit: contain; */
+    }
+    .info-subtitle{
+        font-size: 12px;
+    }
+    .project-1{
+        position: absolute;
+        top: 260px;
+        left: 14%;
+        max-width: 180px;
+    }
+    .project-2{
+        position: absolute;
+        top: 330px;
+        right: 8%;
+        max-width: 160px;
+    }
+    .internship-1{
+        position: absolute;
+        top: 450px;
+        left: 3%;
+        max-width: 200px;
+    }
+    .internship-2{
+        position: absolute;
+        top: 500px;
+        right: 3%;
+        max-width: 240px;
+    }
+    .internship-3{
+        position: absolute;
+        top: 800px;
+        left: 3%;
+        max-width: 240px;
+    }
+    .internship-4{
+        position: absolute;
+        top: 1055px;
+        right: 1%;
+        max-width: 200px;
+    }
+    .marathon-1{
+        position: absolute;
+        top: 755px;
+        right: 3%;
+        max-width: 240px;
+    }
+    .marathon-2{
+        position: absolute;
+        top: 1115px;
+        left: 5%;
+        max-width: 240px;
+    }
+    .project-heading,.internship-heading{
+        font-size: 12px;
+    }
+    .project-desc,.internship-data,.internship-jd,.internship-duration{
+        font-size: 10px;
+    }
+    .resume{
+        font-size: 10px;
+    }
+    .internship-img{
+        height: 30px;
+        width: 30px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .roadmap{
+        height: 100%;
+        max-width: 600px;
+        /* object-fit: contain; */
+    }
+    .info-subtitle{
+        font-size: 15px;
+    }
+    .project-1{
+        position: absolute;
+        top: 425px;
+        left: 17%;
+        max-width: 230px;
+    }
+    .project-2{
+        position: absolute;
+        top: 480px;
+        right: 9%;
+        max-width: 220px;
+    }
+    .internship-1{
+        position: absolute;
+        top: 690px;
+        left: 7%;
+        max-width: 280px;
+    }
+    .internship-2{
+        position: absolute;
+        top: 755px;
+        right: 9%;
+        max-width: 280px;
+    }
+    .internship-3{
+        position: absolute;
+        top: 1200px;
+        left: 8%;
+        max-width: 300px;
+    }
+    .internship-4{
+        position: absolute;
+        top: 1595px;
+        right: 1%;
+        max-width: 300px;
+    }
+    .marathon-1{
+        position: absolute;
+        top: 1135px;
+        right: 8%;
+        max-width: 300px;
+    }
+    .marathon-2{
+        position: absolute;
+        top: 1680px;
+        left: 13%;
+        max-width: 300px;
+    }
+    .project-heading,.internship-heading{
+        font-size: 15px;
+    }
+    .project-desc,.internship-data,.internship-jd,.internship-duration{
+        font-size: 12px;
+    }
+    .resume{
+        font-size: 12px;
+    }
+    .internship-img{
+        height: 35px;
+        width: 35px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .roadmap{
+        height: 100%;
+        max-width: 700px;
+        /* object-fit: contain; */
+    }
+    .info-subtitle{
+        font-size: 15px;
+    }
+    .project-1{
+        position: absolute;
+        top: 480px;
+        left: 18%;
+        max-width: 250px;
+    }
+    .project-2{
+        position: absolute;
+        top: 570px;
+        right: 7%;
+        max-width: 280px;
+    }
+    .internship-1{
+        position: absolute;
+        top: 805px;
+        left: 7%;
+        max-width: 350px;
+    }
+    .internship-2{
+        position: absolute;
+        top: 885px;
+        right: 8%;
+        max-width: 350px;
+    }
+    .internship-3{
+        position: absolute;
+        top: 1395px;
+        left: 8%;
+        max-width: 350px;
+    }
+    .internship-4{
+        position: absolute;
+        top: 1865px;
+        right: 2%;
+        max-width: 350px;
+    }
+    .marathon-1{
+        position: absolute;
+        top: 1330px;
+        right: 9%;
+        max-width: 350px;
+    }
+    .marathon-2{
+        position: absolute;
+        top: 1955px;
+        left: 12%;
+        max-width: 350px;
+    }
+    .internship-heading{
+        font-size: 18px;
+    }
+    .internship-data,.internship-jd,.internship-duration{
+        font-size: 15px;
+    }
+    .project-heading{
+        font-size: 18px;
+    }
+    .project-desc{
+        font-size: 15px;
+    }
+    .resume{
+        font-size: 15px;
+    }
+    .internship-img{
+        height: 35px;
+        width: 35px;
+    }
+}
+@media only screen and (min-width: 1536px) {
+    .roadmap{
+        height: 100%;
+        max-width: 800px;
+        /* object-fit: contain; */
+    }
+    .info-subtitle{
+        font-size: 15px;
+    }
+    .project-1{
+        position: absolute;
+        top: 560px;
+        left: 22%;
+        max-width: 280px;
+    }
+    .project-2{
+        position: absolute;
+        top: 670px;
+        right: 15%;
+        max-width: 280px;
+    }
+    .internship-1{
+        position: absolute;
+        top: 925px;
+        left: 14%;
+        max-width: 350px;
+    }
+    .internship-2{
+        position: absolute;
+        top: 1010px;
+        right: 15%;
+        max-width: 370px;
+    }
+    .internship-3{
+        position: absolute;
+        top: 1600px;
+        left: 15%;
+        max-width: 350px;
+    }
+    .internship-4{
+        position: absolute;
+        top: 2130px;
+        right: 10%;
+        max-width: 350px;
+    }
+    .marathon-1{
+        position: absolute;
+        top: 1520px;
+        right: 16%;
+        max-width: 350px;
+    }
+    .marathon-2{
+        position: absolute;
+        top: 2235px;
+        left: 18%;
+        max-width: 350px;
+    }
+    .project-heading,.internship-heading{
+        font-size: 18px;
+    }
+    .project-desc,.internship-data,.internship-jd,.internship-duration{
+        font-size: 15px;
+    }
+    .resume{
+        font-size: 15px;
+    }
+    .internship-img{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .roadmap{
+        height: 100%;
+        max-width: 800px;
+        /* object-fit: contain; */
+    }
+    .info-subtitle{
+        font-size: 15px;
+    }
+    .project-1{
+        position: absolute;
+        top: 570px;
+        left: 28%;
+        max-width: 280px;
+    }
+    .project-2{
+        position: absolute;
+        top: 660px;
+        right: 21%;
+        max-width: 280px;
+    }
+    .internship-1{
+        position: absolute;
+        top: 925px;
+        left: 21%;
+        max-width: 350px;
+    }
+    .internship-2{
+        position: absolute;
+        top: 1010px;
+        right: 22%;
+        max-width: 400px;
+    }
+    .internship-3{
+        position: absolute;
+        top: 1600px;
+        left: 22%;
+        max-width: 350px;
+    }
+    .internship-4{
+        position: absolute;
+        top: 2130px;
+        right: 18%;
+        max-width: 350px;
+    }
+    .marathon-1{
+        position: absolute;
+        top: 1520px;
+        right: 23%;
+        max-width: 350px;
+    }
+    .marathon-2{
+        position: absolute;
+        top: 2235px;
+        left: 25%;
+        max-width: 350px;
+    }
+    .project-heading,.internship-heading{
+        font-size: 18px;
+    }
+    .project-desc,.internship-data,.internship-jd,.internship-duration{
+        font-size: 15px;
+    }
+    .resume{
+        font-size: 15px;
+    }
+    .internship-img{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+
